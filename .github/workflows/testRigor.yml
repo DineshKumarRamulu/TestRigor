@@ -25,9 +25,9 @@ jobs:
         run: |
           curl -X POST \
             -H 'Content-type: application/json' \
-            -H 'auth-token: 19f742b0-1606-4fe6-88c9-d5b5ba6b8cf6' \
+            -H 'auth-token: 44ef50d5-8bcc-483d-a0eb-ba4ad96f9d9e' \
             --data '{"forceCancelPreviousTesting":true,"storedValues":{"storedValueName1":"Value"}}' \
-            https://api.testrigor.com/api/v1/apps/Kk8y25EKoRqxX3zSH/retest
+            https://api.testrigor.com/api/v1/apps/ZTW7j3DXfZJPLh2gX/retest
 
           sleep 10
 
